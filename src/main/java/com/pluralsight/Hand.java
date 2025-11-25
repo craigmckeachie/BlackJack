@@ -2,6 +2,7 @@ package com.pluralsight;
 
 import java.util.ArrayList;
 
+//comment here
 public class Hand {
     private ArrayList<Card> cards;
 
@@ -11,7 +12,7 @@ public class Hand {
 
     // A Card is dealt to the Hand and the Hand is responsible
     // to store the card
-    public void deal(Card card) {
+    public void addCard(Card card) {
         cards.add(card);
     }
 
@@ -21,7 +22,7 @@ public class Hand {
 
     // The Hand uses the methods of each card to determine
     // the value of each card - and adds up all values
-    public int getValue() {
+    public int calculateTotalPoints() {
         int value = 0;
         for (Card card : cards) {
             card.flip(); // turn the card over to see the value
