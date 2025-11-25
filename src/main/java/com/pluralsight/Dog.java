@@ -20,7 +20,7 @@ public class Dog {
 
     @Override
     public String toString() {
-        return "Dog{" +
+        return "Snoop Doggy Dog{" +
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +
                 ", dateOfBirth=" + dateOfBirth +
