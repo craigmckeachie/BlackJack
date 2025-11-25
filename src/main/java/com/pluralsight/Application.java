@@ -6,6 +6,7 @@ import java.util.ArrayList;
 public class Application {
 
     public static void main(String[] args) {
+        //Craig was here
         ArrayList<String> playerNames = new ArrayList<>();
         playerNames.add("Tim");
         playerNames.add("Jim");
